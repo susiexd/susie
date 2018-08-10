@@ -50,9 +50,13 @@ categories: jekyll update
 
 #7、代码块
 方式：四个空格或者tab
+    
+    ^^^python
     r = requests.get("url_get", params=params)
   r.text  # 获取响应内容
-  r.encoding # 根据http头部返回响应编码    
+  r.encoding # 根据http头部返回响应编码  
+  ^^^    
+  
   
 
 #8、未完待续
