@@ -4,22 +4,54 @@ title:  "hello，susie!"
 date:   2018-08-03 11:26:42 +0800
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+####四井号（超大）
+###三井号
+##二井号
+#一个井号（小）
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+#1、
+`行内代码？`
 
-Jekyll also offers powerful support for code snippets:
+#2、引用
+单层引用
+>单行引用
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+多层引用
+>这是第一层
+>>这是第二层
+>回到第一层
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+#3、列表
+无序列表
+* 果汁
+* 可乐
+- 雪碧
+- 橙汁
++ 咖啡
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+有序列表
+1. 数字+点+空格+内容
+2. 这是第二
+3. 这是第三
+
+#4、分割线
+***
+* * *
+---
+- - -
+
+#5、超链接
+方式: [title](href)
+[跳转到文章~](https://www.jianshu.com/p/82c0e19396ad)
+
+#6、图片引用
+方式
+![一张图片](https://upload-images.jianshu.io/upload_images/1777150-5c0008091d56ef09.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700)
+
+#7、代码块
+方式：四个空格或者tab
+  r = requests.get("url_get", params=params)
+  r.text  # 获取响应内容
+  r.encoding # 根据http头部返回响应编码
+
+#8、未完待续
